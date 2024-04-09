@@ -48,8 +48,9 @@ public class Main {
             int temp=arr[Min];
             arr[Min]=arr[i];
             arr[i]=temp;
+
         }
-        System.out.println("Select sort ordered array:");
+        System.out.println("Select sorting algorithm result ordered array:");
         for (int i : arr) {
             System.out.println(i);
         }
