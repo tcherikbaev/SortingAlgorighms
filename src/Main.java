@@ -50,9 +50,9 @@ public class Main {
             arr[i]=temp;
 
         }
-        System.out.println("Select sorting algorithm result ordered array:");
-        for (int i : arr) {
-            System.out.println(i);
+        System.out.println("Select sorting algorithm result ordered array :");
+        for (int j : arr) {
+            System.out.println(j);
         }
     }
 }
