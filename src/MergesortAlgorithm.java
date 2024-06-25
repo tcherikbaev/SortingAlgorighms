@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class MergesortAlgorithm {
     public static void main(String[] args) {
-        int[] arr = {12, 11, 13, 5, 60, 74,332,323,12,};
+        int[] arr = {12, 11, 13, 5, 690, 74,382,323,12,-6,656};
         System.out.println("Original Array: " + Arrays.toString(arr));
 
         mergeSort(arr, 0, arr.length - 1);
